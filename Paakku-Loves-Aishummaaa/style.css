@@ -1,0 +1,83 @@
+body {
+
+    margin: 0;
+    text-align: center;
+
+    font-family: Arial;
+
+    background: #fff5f7;
+}
+
+.hero {
+
+    padding: 60px;
+}
+
+.hero h1 {
+
+    color: #ff4d6d;
+    font-size: 50px;
+}
+
+.hero img {
+
+    width: 300px;
+
+    border-radius: 20px;
+}
+
+.card {
+
+    background: white;
+
+    width: 70%;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+
+    background: #ff4d6d;
+
+    color: white;
+
+    padding: 15px 30px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+#message {
+
+    margin-top: 30px;
+
+    font-size: 20px;
+}
+
+body::before {
+
+content: "❤️ ❤️ ❤️ ❤️ ❤️";
+
+position: fixed;
+
+top: 0;
+
+width: 100%;
+
+font-size: 30px;
+
+opacity: 0.15;
+
+pointer-events: none;
+}
